@@ -1,10 +1,11 @@
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-  <meta property="og:title" content="مزرعتي تيارت - بيض وفراخ طازجة">
+<meta property="og:title" content="مزرعتي تيارت - بيض وفراخ طازجة">
 <meta property="og:description" content="اطلب الآن - توصيل للمنزل - جودة مضمونة">
 <meta property="og:image" content="https://mazraati-tiaret.github.io/mazraati-tiaret/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:url" content="https://mazraati-tiaret.github.io/mazraati-tiaret/">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>مزرعتي تيارت — بيض وفراخ إيزا براون</title>
@@ -19,8 +20,6 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Tajawal',sans-serif;background:var(--cr);color:#1a1a1a;overflow-x:hidden}
-
-/* ====== HEADER ====== */
 header{background:var(--g);padding:0 20px;position:sticky;top:0;z-index:100;box-shadow:0 3px 18px rgba(0,0,0,.3)}
 .hi{max-width:1000px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:66px}
 .logo{display:flex;align-items:center;gap:11px}
@@ -32,8 +31,6 @@ header{background:var(--g);padding:0 20px;position:sticky;top:0;z-index:100;box-
 .h-btn:hover{transform:translateY(-1px);opacity:.9}
 .h-wa{background:var(--wa);color:#fff}
 .h-fb{background:var(--fb);color:#fff}
-
-/* ====== HERO ====== */
 .hero{background:linear-gradient(135deg,#1a4d1a,var(--g) 55%,#3a7a20);color:#fff;text-align:center;padding:72px 20px 96px;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 65% 40%,rgba(255,255,255,.06),transparent 65%)}
 .htag{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.35);backdrop-filter:blur(6px);color:#fff;font-size:.85rem;font-weight:700;padding:5px 18px;border-radius:30px;margin-bottom:20px;animation:fu .5s ease both}
@@ -48,53 +45,38 @@ header{background:var(--g);padding:0 20px;position:sticky;top:0;z-index:100;box-
 .cta-call{background:var(--gold);color:var(--br);box-shadow:0 6px 22px rgba(245,166,35,.4)}
 .cta-call:hover{box-shadow:0 10px 30px rgba(245,166,35,.55)}
 .wave{position:absolute;bottom:-1px;left:0;right:0}
-
-/* ====== STATS ====== */
 .stats{background:#fff;box-shadow:var(--sh)}
 .si{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);text-align:center}
 .st{padding:18px 10px;border-left:1px solid #f0f0f0}.st:last-child{border-left:none}
 .sn{font-size:1.7rem;font-weight:900;color:var(--g)}.sl{font-size:.76rem;color:var(--mu);margin-top:2px}
-
-/* ====== SECTION ====== */
 section{padding:56px 20px}
 .inn{max-width:1000px;margin:0 auto}
 .stit{text-align:center;font-size:1.7rem;font-weight:900;color:var(--g);margin-bottom:6px}
 .stit em{color:var(--gold);font-style:normal}
 .bar{width:55px;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--g),var(--gold));margin:10px auto 34px}
 .ssub{text-align:center;color:var(--mu);margin:-22px auto 34px;font-size:.93rem;max-width:440px;line-height:1.6}
-
-/* ====== PRODUCTS ====== */
 .pgrid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
 @media(max-width:640px){.pgrid{grid-template-columns:1fr}}
-
 .pcard{background:#fff;border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);transition:transform .3s,box-shadow .3s}
 .pcard:hover{transform:translateY(-8px);box-shadow:0 20px 48px rgba(0,0,0,.15)}
-
 .pimg{width:100%;height:240px;object-fit:cover;display:block;transition:transform .4s}
 .pcard:hover .pimg{transform:scale(1.04)}
 .pimg-wrap{overflow:hidden;position:relative}
-
 .badge{position:absolute;top:14px;right:14px;font-size:.72rem;font-weight:900;padding:5px 14px;border-radius:20px;letter-spacing:.3px;z-index:2}
 .bg{background:var(--g);color:#fff}
-.bo{background:var(--gold);color:var(--br)}
 .br2{background:#c0392b;color:#fff}
-
 .pbody{padding:20px 22px 22px}
 .pname{font-size:1.15rem;font-weight:900;margin-bottom:8px}
 .pdesc{font-size:.87rem;color:var(--mu);line-height:1.68;margin-bottom:16px}
 .ptags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
 .ptag{background:var(--g3);color:var(--g);font-size:.75rem;font-weight:700;padding:3px 10px;border-radius:12px}
-
 .pfoot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #f3f3f3;padding-top:14px}
 .price{font-size:1.25rem;font-weight:900;color:var(--g)}.price small{font-size:.76rem;font-weight:400;color:var(--mu)}
-
 .pbtns{display:flex;gap:8px}
 .pbtn{display:inline-flex;align-items:center;gap:5px;font-family:'Tajawal',sans-serif;font-weight:700;font-size:.85rem;padding:9px 15px;border-radius:26px;text-decoration:none;transition:transform .2s,opacity .2s;white-space:nowrap}
 .pbtn:hover{transform:scale(1.05);opacity:.9}
 .pbtn-wa{background:var(--wa);color:#fff}
 .pbtn-call{background:var(--g);color:#fff}
-
-/* ====== FEATURES ====== */
 .feat-bg{background:var(--g3)}
 .fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(195px,1fr));gap:18px}
 .fc{background:#fff;border-radius:var(--r);padding:26px 18px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.07);border-bottom:4px solid var(--g);transition:transform .2s}
@@ -102,66 +84,46 @@ section{padding:56px 20px}
 .fi{font-size:2.3rem;margin-bottom:10px}
 .ft{font-weight:900;color:var(--g);margin-bottom:7px;font-size:1rem}
 .fd{font-size:.83rem;color:var(--mu);line-height:1.65}
-
-/* ====== LOCATION ====== */
 .loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
 @media(max-width:680px){.loc-grid{grid-template-columns:1fr}}
-
 .loc-info{display:flex;flex-direction:column;gap:16px}
 .loc-card{background:#fff;border-radius:var(--r);padding:22px 20px;box-shadow:var(--sh);display:flex;align-items:flex-start;gap:14px}
 .loc-icon{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0}
-.loc-icon.green{background:var(--g3)}
-.loc-icon.gold{background:var(--gold2)}
-.loc-icon.blue{background:#e3f2fd}
-.loc-icon.wa{background:#d0f5e0}
-.loc-icon.fb{background:#e8f0fe}
 .loc-label{font-size:.75rem;color:var(--mu);margin-bottom:4px;font-weight:500}
 .loc-val{font-weight:900;font-size:1rem;color:#1a1a1a}
 .loc-val a{color:var(--g);text-decoration:none}
-.loc-val a:hover{text-decoration:underline}
 .loc-sub{font-size:.8rem;color:var(--mu);margin-top:3px}
-
 .social-btns{display:flex;gap:10px;margin-top:8px;flex-wrap:wrap}
 .soc-btn{display:inline-flex;align-items:center;gap:7px;font-family:'Tajawal',sans-serif;font-weight:700;font-size:.88rem;padding:9px 18px;border-radius:30px;text-decoration:none;transition:transform .2s,opacity .2s}
 .soc-btn:hover{transform:translateY(-2px);opacity:.9}
 .soc-wa{background:var(--wa);color:#fff}
 .soc-fb{background:var(--fb);color:#fff}
 .soc-call{background:var(--g);color:#fff}
-
 .map-embed{border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);height:100%;min-height:380px;background:var(--g3);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border:3px solid var(--g);padding:24px}
 .map-pin{font-size:3.5rem;animation:bounce 1.6s ease-in-out infinite;display:block;margin-bottom:10px}
 .map-title{font-weight:900;color:var(--g);font-size:1.1rem;margin-bottom:4px}
-.map-sub{color:var(--mu);font-size:.88rem;margin-bottom:6px}
 .map-addr{background:var(--g);color:#fff;font-weight:700;font-size:.9rem;padding:8px 20px;border-radius:20px;margin:10px 0}
 .map-link{display:inline-flex;align-items:center;gap:6px;margin-top:12px;background:#fff;color:var(--g);border:2px solid var(--g);padding:10px 22px;border-radius:30px;text-decoration:none;font-weight:700;font-size:.9rem;transition:background .2s,color .2s}
 .map-link:hover{background:var(--g);color:#fff}
-
-/* ====== HOURS ====== */
 .hours-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:10px}
 .hour-item{background:var(--g3);border-radius:10px;padding:8px 12px;text-align:center}
 .hour-day{font-size:.78rem;color:var(--mu)}
 .hour-time{font-size:.88rem;font-weight:700;color:var(--g)}
 .hour-item.closed .hour-time{color:#c0392b}
-
-/* ====== FOOTER ====== */
 footer{background:#152815;color:rgba(255,255,255,.65);text-align:center;padding:28px 20px;font-size:.85rem}
 footer strong{color:var(--gold)}
 .footer-socials{display:flex;gap:12px;justify-content:center;margin:14px 0}
-.fsoc{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;text-decoration:none;transition:transform .2s}
+.fsoc{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:transform .2s}
 .fsoc:hover{transform:scale(1.15)}
 .fsoc-wa{background:var(--wa)}
 .fsoc-fb{background:var(--fb)}
-.fsoc-call{background:#fff;box-shadow:0 2px 8px rgba(45,106,45,.3)}
-
-/* ====== FLOAT BUTTONS ====== */
+.fsoc-call{background:#fff}
 .floats{position:fixed;bottom:20px;left:20px;display:flex;flex-direction:column;gap:10px;z-index:999}
-.float-btn{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.6rem;text-decoration:none;box-shadow:0 4px 18px rgba(0,0,0,.25);transition:transform .2s}
+.float-btn{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 18px rgba(0,0,0,.25);transition:transform .2s}
 .float-btn:hover{transform:scale(1.12)}
 .fb-wa{background:var(--wa);animation:pulse-wa 2.2s ease-in-out infinite}
 .fb-fb{background:var(--fb)}
-.fb-call{background:#fff;box-shadow:0 4px 18px rgba(45,106,45,.3)}
-
-/* ====== ANIMATIONS ====== */
+.fb-call{background:#fff}
 @keyframes fu{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
 @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
 @keyframes pulse-wa{0%,100%{box-shadow:0 4px 18px rgba(37,211,102,.5)}50%{box-shadow:0 4px 32px rgba(37,211,102,.85)}}
@@ -171,7 +133,6 @@ footer strong{color:var(--gold)}
 .rev2.on{opacity:1;transform:translateY(0)}
 .rev3{opacity:0;transform:translateY(28px);transition:opacity .65s .3s ease,transform .65s .3s ease}
 .rev3.on{opacity:1;transform:translateY(0)}
-
 @media(max-width:600px){
   .h-btn span.txt{display:none}
   .si{grid-template-columns:repeat(2,1fr)}
@@ -182,30 +143,17 @@ footer strong{color:var(--gold)}
 </style>
 </head>
 <body>
-
-<!-- ====== FLOAT BUTTONS ====== -->
 <div class="floats">
-  <!-- WhatsApp Official SVG -->
-  <a class="float-btn fb-wa" href="https://wa.me/213669371536" target="_blank" title="واتساب">
-    <svg viewBox="0 0 24 24" width="30" height="30" fill="white" xmlns="http://www.w3.org/2000/svg">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-    </svg>
+  <a class="float-btn fb-wa" href="https://wa.me/213669371536" target="_blank">
+    <svg viewBox="0 0 24 24" width="30" height="30" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   </a>
-  <!-- Facebook Official SVG -->
-  <a class="float-btn fb-fb" href="https://www.facebook.com/share/1HcGqtn9dj/" target="_blank" title="فيسبوك">
-    <svg viewBox="0 0 24 24" width="28" height="28" fill="white" xmlns="http://www.w3.org/2000/svg">
-      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-    </svg>
+  <a class="float-btn fb-fb" href="https://www.facebook.com/share/1HcGqtn9dj/" target="_blank">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
   </a>
-  <!-- Phone - white bg, green icon -->
-  <a class="float-btn fb-call" href="tel:+213669371536" title="اتصال">
-    <svg viewBox="0 0 24 24" width="28" height="28" fill="#2d6a2d" xmlns="http://www.w3.org/2000/svg">
-      <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-    </svg>
+  <a class="float-btn fb-call" href="tel:+213669371536">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="#2d6a2d"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
   </a>
 </div>
-
-<!-- ====== HEADER ====== -->
 <header>
   <div class="hi">
     <div class="logo">
@@ -227,8 +175,6 @@ footer strong{color:var(--gold)}
     </div>
   </div>
 </header>
-
-<!-- ====== HERO ====== -->
 <div class="hero">
   <div class="htag">🌿 إيزا براون الأصلية — فرندة، تيارت</div>
   <h1>بيض طازج وفراخ<br><em>إيزا براون</em> أصلية</h1>
@@ -243,12 +189,8 @@ footer strong{color:var(--gold)}
       اتصل الآن
     </a>
   </div>
-  <svg class="wave" viewBox="0 0 1440 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0,28 C400,55 1040,0 1440,28 L1440,55 L0,55 Z" fill="#fdf8f0"/>
-  </svg>
+  <svg class="wave" viewBox="0 0 1440 55" fill="none"><path d="M0,28 C400,55 1040,0 1440,28 L1440,55 L0,55 Z" fill="#fdf8f0"/></svg>
 </div>
-
-<!-- ====== STATS ====== -->
 <div class="stats">
   <div class="si">
     <div class="st"><div class="sn">500+</div><div class="sl">دجاجة إيزا براون</div></div>
@@ -257,141 +199,78 @@ footer strong{color:var(--gold)}
     <div class="st"><div class="sn">فرندة</div><div class="sl">ولاية تيارت</div></div>
   </div>
 </div>
-
-<!-- ====== PRODUCTS ====== -->
 <section id="products">
   <div class="inn">
     <h2 class="stit">منتجاتنا <em>الطازجة</em></h2>
     <div class="bar"></div>
     <p class="ssub">بيض طازج يومياً وفراخ إيزا براون صغيرة — شوف وتأكد بعينك</p>
-
     <div class="pgrid">
-
-      <!-- بيض كرتون -->
       <div class="pcard rev">
         <div class="pimg-wrap">
           <div class="badge bg">⭐ الأكثر طلباً</div>
-          <img class="pimg"
-            src="https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=600&q=80"
-            alt="بيض إيزا براون طازج"
-            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <img class="pimg" src="https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=600&q=80" alt="بيض إيزا براون طازج" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
           <div style="display:none;height:240px;background:linear-gradient(135deg,#fff8dc,#fde68a,#f59e0b);align-items:center;justify-content:center;font-size:5rem">🥚</div>
         </div>
         <div class="pbody">
           <div class="pname">🥚 بيض إيزا براون الطازج</div>
-          <div class="ptags">
-            <span class="ptag">🌿 طبيعي 100%</span>
-            <span class="ptag">📅 طازج يومياً</span>
-            <span class="ptag">كرتون 30 بيضة</span>
-          </div>
+          <div class="ptags"><span class="ptag">🌿 طبيعي 100%</span><span class="ptag">📅 طازج يومياً</span><span class="ptag">كرتون 30 بيضة</span></div>
           <div class="pdesc">بيض طازج يُجمع كل صباح من دجاج إيزا براون — حجم كبير، صفار أصفر داكن غني، بدون أي مواد حافظة أو هرمونات.</div>
           <div class="pfoot">
             <div class="price">280 <small>دج / كرتون</small></div>
             <div class="pbtns">
-              <a class="pbtn pbtn-wa" href="https://wa.me/213669371536?text=السلام عليكم، أريد طلب بيض إيزا براون" target="_blank">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                <span class="txt">واتساب</span>
-              </a>
-              <a class="pbtn pbtn-call" href="tel:+213669371536">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="white"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-                <span class="txt">اتصل</span>
-              </a>
+              <a class="pbtn pbtn-wa" href="https://wa.me/213669371536?text=السلام عليكم، أريد طلب بيض إيزا براون" target="_blank"><span class="txt">واتساب</span></a>
+              <a class="pbtn pbtn-call" href="tel:+213669371536"><span class="txt">اتصل</span></a>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- فراخ صغار -->
       <div class="pcard rev2">
         <div class="pimg-wrap">
           <div class="badge br2">🐣 فراخ صغيرة</div>
-          <img class="pimg"
-            src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=600&q=80"
-            alt="فراخ إيزا براون صغيرة"
-            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <img class="pimg" src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=600&q=80" alt="فراخ إيزا براون صغيرة" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
           <div style="display:none;height:240px;background:linear-gradient(135deg,#fef9c3,#fde68a,#f59e0b);align-items:center;justify-content:center;font-size:5rem">🐣</div>
         </div>
         <div class="pbody">
           <div class="pname">🐣 فراخ إيزا براون صغيرة</div>
-          <div class="ptags">
-            <span class="ptag">🧬 سلالة أصلية</span>
-            <span class="ptag">🌿 تربية طبيعية</span>
-            <span class="ptag">💉 ملقحة</span>
-          </div>
+          <div class="ptags"><span class="ptag">🧬 سلالة أصلية</span><span class="ptag">🌿 تربية طبيعية</span><span class="ptag">💉 ملقحة</span></div>
           <div class="pdesc">فراخ إيزا براون الأصلية من مزرعتنا — سلالة عالية الإنتاج تصل إلى 300 بيضة/سنة. ملقحة وصحية، مناسبة للمناخ الجزائري.</div>
           <div class="pfoot">
             <div class="price">تواصل <small>للسعر</small></div>
             <div class="pbtns">
-              <a class="pbtn pbtn-wa" href="https://wa.me/213669371536?text=السلام عليكم، أريد الاستفسار عن فراخ إيزا براون الصغيرة" target="_blank">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                <span class="txt">واتساب</span>
-              </a>
-              <a class="pbtn pbtn-call" href="tel:+213669371536">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="white"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-                <span class="txt">اتصل</span>
-              </a>
+              <a class="pbtn pbtn-wa" href="https://wa.me/213669371536?text=السلام عليكم، أريد الاستفسار عن فراخ إيزا براون الصغيرة" target="_blank"><span class="txt">واتساب</span></a>
+              <a class="pbtn pbtn-call" href="tel:+213669371536"><span class="txt">اتصل</span></a>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
-
-<!-- ====== FEATURES ====== -->
 <section class="feat-bg">
   <div class="inn">
     <h2 class="stit">لماذا <em>مزرعتي تيارت؟</em></h2>
     <div class="bar"></div>
     <div class="fg rev">
-      <div class="fc">
-        <div class="fi">🧬</div>
-        <div class="ft">إيزا براون أصلية</div>
-        <div class="fd">سلالة مختارة عالية الإنتاج — تصل إلى 300 بيضة في السنة</div>
-      </div>
-      <div class="fc">
-        <div class="fi">🌿</div>
-        <div class="ft">تربية طبيعية</div>
-        <div class="fd">علف طبيعي 100% بدون هرمونات ولا مضادات حيوية غير ضرورية</div>
-      </div>
-      <div class="fc">
-        <div class="fi">⚡</div>
-        <div class="ft">طازج يومياً</div>
-        <div class="fd">البيض يُجمع كل صباح — لا تخزين ولا بيض قديم أبداً</div>
-      </div>
-      <div class="fc">
-        <div class="fi">👁️</div>
-        <div class="ft">شوف بعينك</div>
-        <div class="fd">نرحب بزيارتك للمزرعة في فرندة — الشفافية أولاً</div>
-      </div>
+      <div class="fc"><div class="fi">🧬</div><div class="ft">إيزا براون أصلية</div><div class="fd">سلالة مختارة عالية الإنتاج — تصل إلى 300 بيضة في السنة</div></div>
+      <div class="fc"><div class="fi">🌿</div><div class="ft">تربية طبيعية</div><div class="fd">علف طبيعي 100% بدون هرمونات ولا مضادات حيوية غير ضرورية</div></div>
+      <div class="fc"><div class="fi">⚡</div><div class="ft">طازج يومياً</div><div class="fd">البيض يُجمع كل صباح — لا تخزين ولا بيض قديم أبداً</div></div>
+      <div class="fc"><div class="fi">👁️</div><div class="ft">شوف بعينك</div><div class="fd">نرحب بزيارتك للمزرعة في فرندة — الشفافية أولاً</div></div>
     </div>
   </div>
 </section>
-
-<!-- ====== LOCATION & CONTACT ====== -->
 <section id="contact">
   <div class="inn">
     <h2 class="stit">موقعنا و<em>تواصل معنا</em></h2>
     <div class="bar"></div>
     <p class="ssub">مزرعتنا في دائرة فرندة، ولاية تيارت — اتصل لمعرفة الموقع الدقيق</p>
-
     <div class="loc-grid">
-
-      <!-- Info -->
       <div class="loc-info">
-
         <div class="loc-card rev">
-          <div class="loc-icon green">📍</div>
-          <div>
-            <div class="loc-label">الموقع</div>
-            <div class="loc-val">دائرة فرندة — ولاية تيارت</div>
-            <div class="loc-sub">الجزائر 🇩🇿</div>
-          </div>
+          <div class="loc-icon" style="background:#e8f5e9">📍</div>
+          <div><div class="loc-label">الموقع</div><div class="loc-val">دائرة فرندة — ولاية تيارت</div><div class="loc-sub">الجزائر 🇩🇿</div></div>
         </div>
-
         <div class="loc-card rev">
-          <div class="loc-icon gold">🕐</div>
+          <div class="loc-icon" style="background:#fff8e1">🕐</div>
           <div style="width:100%">
             <div class="loc-label">أوقات العمل</div>
             <div class="loc-val" style="margin-bottom:8px">السبت – الخميس</div>
@@ -402,97 +281,54 @@ footer strong{color:var(--gold)}
             </div>
           </div>
         </div>
-
         <div class="loc-card rev">
-          <div class="loc-icon wa" style="background:#d0f5e0">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="#25d366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </div>
+          <div class="loc-icon" style="background:#d0f5e0">📱</div>
           <div>
             <div class="loc-label">واتساب</div>
             <div class="loc-val"><a href="https://wa.me/213669371536">0669371536</a></div>
             <div class="social-btns">
-              <a class="soc-btn soc-wa" href="https://wa.me/213669371536?text=السلام عليكم، أريد الاستفسار عن منتجاتكم" target="_blank">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                واتساب
-              </a>
-              <a class="soc-btn soc-call" href="tel:+213669371536">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="white"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-                اتصل
-              </a>
+              <a class="soc-btn soc-wa" href="https://wa.me/213669371536?text=السلام عليكم، أريد الاستفسار عن منتجاتكم" target="_blank">واتساب</a>
+              <a class="soc-btn soc-call" href="tel:+213669371536">اتصل</a>
             </div>
           </div>
         </div>
-
         <div class="loc-card rev">
-          <div class="loc-icon fb" style="background:#e8f0fe">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="#1877f2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          </div>
+          <div class="loc-icon" style="background:#e8f0fe">📘</div>
           <div>
             <div class="loc-label">صفحة الفيسبوك</div>
             <div class="loc-val"><a href="https://www.facebook.com/share/1HcGqtn9dj/" target="_blank">مزرعتي تيارت</a></div>
             <div class="social-btns">
-              <a class="soc-btn soc-fb" href="https://www.facebook.com/share/1HcGqtn9dj/" target="_blank">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                زيارة الصفحة
-              </a>
+              <a class="soc-btn soc-fb" href="https://www.facebook.com/share/1HcGqtn9dj/" target="_blank">زيارة الصفحة</a>
             </div>
           </div>
         </div>
-
       </div>
-
-      <!-- Map -->
       <div class="map-embed rev2">
         <span class="map-pin">📍</span>
         <div class="map-title">مزرعتي تيارت</div>
         <div class="map-addr">دائرة فرندة — ولاية تيارت</div>
         <div class="map-sub">اتصل بنا لمعرفة الموقع الدقيق وتحديد موعد الزيارة</div>
         <div style="display:flex;flex-direction:column;gap:10px;margin-top:10px">
-          <a class="map-link" href="https://maps.google.com/?q=فرندة+تيارت+الجزائر" target="_blank">
-            🗺️ فتح خرائط جوجل
-          </a>
-          <a class="soc-btn soc-wa" href="https://wa.me/213669371536?text=السلام عليكم، أريد معرفة موقع المزرعة" target="_blank" style="justify-content:center">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            اسألنا عن الموقع
-          </a>
+          <a class="map-link" href="https://maps.google.com/?q=فرندة+تيارت+الجزائر" target="_blank">🗺️ فتح خرائط جوجل</a>
+          <a class="soc-btn soc-wa" href="https://wa.me/213669371536?text=السلام عليكم، أريد معرفة موقع المزرعة" target="_blank" style="justify-content:center">اسألنا عن الموقع</a>
         </div>
       </div>
-
     </div>
   </div>
 </section>
-
-<!-- ====== FOOTER ====== -->
 <footer>
   <div class="footer-socials">
-    <a class="fsoc fsoc-wa" href="https://wa.me/213669371536" target="_blank">
-      <svg viewBox="0 0 24 24" width="22" height="22" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-    </a>
-    <a class="fsoc fsoc-fb" href="https://www.facebook.com/share/1HcGqtn9dj/" target="_blank">
-      <svg viewBox="0 0 24 24" width="22" height="22" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-    </a>
-    <a class="fsoc fsoc-call" href="tel:+213669371536">
-      <svg viewBox="0 0 24 24" width="22" height="22" fill="white"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-    </a>
+    <a class="fsoc fsoc-wa" href="https://wa.me/213669371536" target="_blank">💬</a>
+    <a class="fsoc fsoc-fb" href="https://www.facebook.com/share/1HcGqtn9dj/" target="_blank">📘</a>
+    <a class="fsoc fsoc-call" href="tel:+213669371536">📞</a>
   </div>
   <p><strong>مزرعتي تيارت</strong> — بيض وفراخ إيزا براون الأصلية</p>
   <p style="margin-top:5px">دائرة فرندة، ولاية تيارت، الجزائر 🇩🇿 — 0669371536</p>
 </footer>
-
 <script>
-// Reveal on scroll
-const obs = new IntersectionObserver(e=>{
-  e.forEach(x=>{ if(x.isIntersecting) x.target.classList.add('on'); });
-},{threshold:.1});
+const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('on')})},{threshold:.1});
 document.querySelectorAll('.rev,.rev2,.rev3').forEach(el=>obs.observe(el));
-
-// Smooth scroll
-document.querySelectorAll('a[href^="#"]').forEach(a=>{
-  a.addEventListener('click',e=>{
-    e.preventDefault();
-    document.querySelector(a.getAttribute('href'))?.scrollIntoView({behavior:'smooth'});
-  });
-});
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();document.querySelector(a.getAttribute('href'))?.scrollIntoView({behavior:'smooth'})})});
 </script>
 </body>
   </html>
